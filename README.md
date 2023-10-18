@@ -8,12 +8,13 @@ To develop a convolutional autoencoder for image denoising application.
 
 Autoencoder is an unsupervised artificial neural network that is trained to copy its input to output. An autoencoder will first encode the image into a lower-dimensional representation, then decodes the representation back to the image.The goal of an autoencoder is to get an output that is identical to the input. Autoencoders uses MaxPooling, convolutional and upsampling layers to denoise the image.
 We are using MNIST Dataset for this experiment. The MNIST dataset is a collection of handwritten digits. The task is to classify a given image of a handwritten digit into one of 10 classes representing integer values from 0 to 9, inclusively. The dataset has a collection of 60,000 handwrittend digits of size 28 X 28. Here we build a convolutional neural network model that is able to classify to it's appropriate numerical value.
-![201967502-00818ac7-4523-46e2-a3be-659758793752](https://github.com/Aashima02/convolutional-denoising-autoencoder/assets/93427086/86b704d0-cd8f-4a7a-9672-6709713a350b)
+![image](https://github.com/Pallavi-Raveendranadreddy/convolutional-denoising-autoencoder/assets/94294872/b5c9c1ff-b3cf-449c-8f3b-e602c5ce07e8)
+
 
 
 ## Convolution Autoencoder Network Model:
+![image](https://github.com/Pallavi-Raveendranadreddy/convolutional-denoising-autoencoder/assets/94294872/34c13d17-1cb7-42ce-bfed-56874f29065b)
 
-![image](https://github.com/Aashima02/convolutional-denoising-autoencoder/assets/93427086/ac3f0447-d648-40a2-9604-e062451416ed)
 
 
 ## DESIGN STEPS
@@ -167,13 +168,15 @@ plt.show()
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot:
-![image](https://github.com/Aashima02/convolutional-denoising-autoencoder/assets/93427086/05f4d648-6803-4f42-825d-f7d79b8e0ca1)
+![image](https://github.com/Pallavi-Raveendranadreddy/convolutional-denoising-autoencoder/assets/94294872/ee278d2d-e051-494d-b930-2651368d1992)
+
 
 
 
 ### Original vs Noisy Vs Reconstructed Image:
 
-![image](https://github.com/Aashima02/convolutional-denoising-autoencoder/assets/93427086/8b9d57f2-1341-43ee-b54d-70b220d81488)
+![image](https://github.com/Pallavi-Raveendranadreddy/convolutional-denoising-autoencoder/assets/94294872/fde5dbe6-eda3-4784-813e-61f83c75dbc1)
+
 
 
 
